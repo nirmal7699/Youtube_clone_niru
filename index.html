@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+   
+<!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+<!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Top nav bar -->
+   
+    <div class="navbar">
+        <div class="left">
+            <i class="material-icons">menu</i>
+            <img class="logo" src="./images/logo.png" alt="">
+        </div>
+
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="search">
+                <button>
+                    <i class="material-icons" id="search">search</i>
+                </button>
+            </form>
+        </div>
+
+        <div class="right">
+            <i class="material-icons">video_call</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </div>
+
+<!-- End of top nav bar -->
+
+<!-- Main body -->
+
+    <div class="mainbody">
+       
+<!-- side bar -->
+        <div class="sidebar">
+            <div class="side">
+                <div class="sidebarcategories">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                 </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">music_video</i>
+                    <span>Shorts</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+                <hr>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">slideshow</i>
+                    <span>Your videos</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch later</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked videos</span>
+                </div>
+                <hr>
+
+                <p>Subscriptions</p>
+                <div class="sidebarcategories">
+                    <i class="material-icons">account_circle</i>
+                    <span>Perro baalen</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">account_circle</i>
+                    <span>4s status</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">account_circle</i>
+                    <span>Madan gowri</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">account_circle</i>
+                    <span>Rishi pedia</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">account_circle</i>
+                    <span>Sun news</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">expand_more</i>
+                    <span>Show more</span>
+                </div>
+                <hr>
+
+                <p>More from youtube</p>
+                <div class="sidebarcategories">
+                    <i class="material-icons">smart_display</i>
+                    <span>Youtube premium</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">theaters</i>
+                    <span>Films</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">sports_esports</i>
+                    <span>Gaming</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">podcasts</i>
+                    <span>Live</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">diamond</i>
+                    <span>Fashion beauty</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">lightbulb</i>
+                    <span>Learning</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">emoji_events</i>
+                    <span>Sport</span>
+                </div>
+                <hr>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">settings</i>
+                    <span>Settings</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">flag</i>
+                    <span>Report library</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">quiz</i>
+                    <span>Help center</span>
+                </div>
+
+                <div class="sidebarcategories">
+                    <i class="material-icons">feedback</i>
+                    <span>Feedback</span>
+                </div>
+                <hr>
+                
+                <div class="credits">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nemo, doloribus obcaecati recusandae voluptatum aut.<br>
+                </div>
+                
+
+                <div class="copyright">
+                    <i class="material-icons" id="Copyright">copyright</i> 
+                    <span id="credits">2022 niru7699</span>
+                </div>
+            </div>
+        </div>
+        <!-- Side bar ends -->
+        <div class="body_right">
+            <div class="top">
+                    <div class="top_button">
+                        <button id="top">
+                            All
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Mixes
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Cinema
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            News
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Sports
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Musics
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Cricket
+                        </button>
+                    </div>
+
+
+                    <div class="top_button">
+                        <button id="top">
+                            Movies
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Musics
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Cheems
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Perro
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Dodge
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Walter
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Entertainment
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Kimgs
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Perro Baalen                            
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Rishi pedia
+                        </button>
+                    </div>
+
+                    <div class="top_button">
+                        <button id="top">
+                            Hello world
+                        </button>
+                    </div>
+            </div>
+            <!-- body bottom -->
+            <div class="body_bot">
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/nantha.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Naan Sigappu manithan 🔥</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Uruttu ulagam</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/bro.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Bro zoned cheems</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/arabic kuthu.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Halamithi habibo</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Sun Pictures</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/life.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Life of cheems</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/breaking news.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Perro baalen news 2021</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/cheems.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Cheems BE</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/Exam.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Cheems exam</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/navarasa.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Cheems navarasa</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/youtube cheems.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Cheems Youtube</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/ipl.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Cheems IPL world</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/save.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Perro saved cheems</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="thumnail">
+                        <img src="./images/perro.jpg" alt="" class="nantha">
+                    </div>
+                    <div class="details">
+                        <div class="detail_left">
+                            <i class="material-icons">account_circle</i>
+                        </div>
+
+                        <div class="detail_right">
+                            <div class="righttop">
+                                <h3>Perro Baalen</h3>
+                            </div>
+                            <div class="rightbot">
+                                <a href="" class="profile">Perro Baalen</a>
+                                <h6>500 views . 1 hours ago</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
